@@ -58,11 +58,6 @@ int main() {
     printf("Informe o Estado (A-H): ");
     scanf(" %s", Estado2); 
 
-    printf("--- Cadastro da Carta 2 ---\n");
-
-    printf("Informe o Estado (A-H): ");
-    scanf(" %s", Estado2); 
-
     printf("Informe o Código da Carta (Ex: B01): ");
     scanf("%s", Codigo_da_Carta2);
 
