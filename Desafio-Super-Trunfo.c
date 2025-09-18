@@ -57,3 +57,27 @@ int main() {
 
     printf("Informe o Estado (A-H): ");
     scanf(" %s", Estado2); 
+
+    printf("--- Cadastro da Carta 2 ---\n");
+
+    printf("Informe o Estado (A-H): ");
+    scanf(" %s", Estado2); 
+
+    printf("Informe o Código da Carta (Ex: B01): ");
+    scanf("%s", Codigo_da_Carta2);
+
+    printf("Informe o Nome da Cidade: ");
+    scanf(" %[^\n]", Nome_da_Cidade2); // Lê a linha inteira, incluindo espaços, até o Enter
+
+    printf("Informe a Populacao: ");
+    scanf("%d", &Populacao2);
+
+    printf("Informe a Area (em km²): ");
+    scanf("%f", &Area2);
+
+    printf("Informe o PIB (em bilhões de reais): ");
+    scanf("%f", &PIB2);
+
+    printf("Informe o Numero de Pontos Turisticos: ");
+    scanf("%d", &Pontos_turisticos2);
+
