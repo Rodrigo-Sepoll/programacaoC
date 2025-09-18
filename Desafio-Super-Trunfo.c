@@ -26,3 +26,27 @@ int main() {
     float Densidade_Populacional2;
     float PIB_per_capita2;
 
+    printf("--- Cadastro da Carta 1 ---\n");
+
+    printf("Informe o Estado (A-H): ");
+    scanf(" %s", Estado1); // O espaço antes de %c consome qualquer caractere de nova linha pendente
+
+    printf("Informe o Código da Carta (Ex: A01): ");
+    scanf("%s", Codigo_da_Carta1);
+
+    printf("Informe o Nome da Cidade: ");
+    scanf(" %[^\n]", Nome_da_Cidade1); // Lê a linha inteira, incluindo espaços, até o Enter
+
+    printf("Informe a Populacao: ");
+    scanf("%d", &Populacao1);
+
+    printf("Informe a Area (em km²): ");
+    scanf("%f", &Area1);
+
+    printf("Informe o PIB (em bilhões de reais): ");
+    scanf("%f", &PIB1);
+
+    printf("Informe o Numero de Pontos Turisticos: ");
+    scanf("%d", &Pontos_Turisticos1);
+
+
