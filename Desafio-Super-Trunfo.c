@@ -85,3 +85,15 @@ int main() {
     Densidade_Populacional2 = (float)Populacao2 / Area2;
     PIB_per_capita2 = (PIB2 * 1000000000.00 / Populacao2);
 
+    // --- Exibe as Informações das Cartas cadastradas---
+
+    printf("\nCarta 1: \n");
+    printf("Estado: %s\n", Estado1);
+    printf("Código: %s\n", Codigo_da_Carta1);
+    printf("Nome da Cidade: %s\n", Nome_da_Cidade1);
+    printf("População: %d\n", Populacao1);
+    printf("Área: %.2f km²\n", Area1); // .2f para exibir com 2 casas decimais
+    printf("PIB: %.2f bilhões de reais\n", PIB1);
+    printf("Numero de Pontos Turisticos: %d\n", Pontos_Turisticos1);
+    printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional1);
+    printf("PIB per Capita: %.2f reais\n", PIB_per_capita1);
