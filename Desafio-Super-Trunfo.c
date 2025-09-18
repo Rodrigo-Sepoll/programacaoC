@@ -81,3 +81,7 @@ int main() {
     printf("Informe o Numero de Pontos Turisticos: ");
     scanf("%d", &Pontos_turisticos2);
 
+    // Calcula Densidade Populacional e PIB per capita para Carta 2
+    Densidade_Populacional2 = (float)Populacao2 / Area2;
+    PIB_per_capita2 = (PIB2 * 1000000000.00 / Populacao2);
+
