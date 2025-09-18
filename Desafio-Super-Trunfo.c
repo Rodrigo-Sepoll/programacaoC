@@ -97,3 +97,17 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", Pontos_Turisticos1);
     printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional1);
     printf("PIB per Capita: %.2f reais\n", PIB_per_capita1);
+
+    printf("\nCarta 2: \n");
+    printf("Estado: %s\n", Estado2);
+    printf("Código: %s\n", Codigo_da_Carta2);
+    printf("Nome da Cidade: %s\n", Nome_da_Cidade2);
+    printf("População: %d\n", Populacao2);
+    printf("Area: %.2f km²\n", Area2); 
+    printf("PIB: %.2f bilhões de reais\n", PIB2);
+    printf("Numero de Pontos Turisticos: %d\n", Pontos_turisticos2);
+    printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional2);
+    printf("PIB per Capita: %.2f reais\n", PIB_per_capita2);
+
+    return 0; // Indica que o programa terminou com sucesso
+}
