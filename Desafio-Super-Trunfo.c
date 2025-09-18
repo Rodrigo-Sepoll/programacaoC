@@ -49,4 +49,11 @@ int main() {
     printf("Informe o Numero de Pontos Turisticos: ");
     scanf("%d", &Pontos_Turisticos1);
 
+    // Calcula Densidade Populacional e PIB per capita para Carta 1
+    Densidade_Populacional1 = (float)Populacao1 / Area1;
+    PIB_per_capita1 = (PIB1 * 1000000000.00 / Populacao1);
 
+    printf("--- Cadastro da Carta 2 ---\n");
+
+    printf("Informe o Estado (A-H): ");
+    scanf(" %s", Estado2); 
